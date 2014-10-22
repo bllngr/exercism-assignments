@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import unittest
 
@@ -41,6 +42,10 @@ class AtbashCipherTest(unittest.TestCase):
     def test_decode_sentence(self):
         self.assertEqual("anobstacleisoftenasteppingstone",
                          decode("zmlyh gzxov rhlug vmzhg vkkrm thglm v"))
+
+    def test_decode_punctuated_sentence(self):
+        self.assertEqual("anobstacleisoftenasteppingstone",
+                         decode("zmlyh gzxov rhlug vmzhg vkkrm thglm v..."))
 
 
 if __name__ == '__main__':
