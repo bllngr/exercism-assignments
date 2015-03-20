@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from datetime import date, timedelta
+from datetime import timedelta
 
 # Submission file for the python gigasecond_test exercise.
 #

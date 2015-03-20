@@ -1,0 +1,12 @@
+Alternatives:
+
+http://exercism.io/submissions/d397a12cb5817f121030cd7a
+    using calendar.itermonthdates() with datetimes
+
+http://exercism.io/submissions/afd781da318ce28aa009263b
+    using last == -1
+    using a position dictionary
+
+http://exercism.io/submissions/2c43a539e73becc5ee149c88
+    using last == -1
+    and tuples instead of lists
